@@ -1,0 +1,21 @@
+{
+    "name": "Arthur Barros",
+    "job": "Desenvolvedor Front-End",
+    "github": "Talagruste",
+    "playlists": {
+        "jogos": [
+            {
+                "title": "algum título",
+                "url": "url",
+                "thumb": "thumbnail do vídeo"
+            }
+        ],
+        "frontend": [
+            {
+                "title": "algum título",
+                "url": "url",
+                "thumb": "thumbnail do vídeo"
+            }
+        ]
+    }
+}
