@@ -31,6 +31,14 @@ const StyledHeader = styled.div`
         border-radius: 50%;
     }
 
+    .bannerPrincipal {
+        background-image: url("https://media-exp1.licdn.com/dms/image/C4D16AQGPOh8CafD4Rg/profile-displaybackgroundimage-shrink_350_1400/0/1668107272082?e=1673481600&v=beta&t=uHwd6gj14rgslbelDCbVRzw3oA1s9tTRRiEij-NOX2w");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        border-radius: 0;
+    }
+
     .user-info {
         display: flex;
         align-items: center;
@@ -42,7 +50,8 @@ const StyledHeader = styled.div`
 function Header() {
     return (
         <StyledHeader>
-            {/* <img src="banner" /> */}
+            <section className="bannerPrincipal"></section>
+
             <section className="user-info">
                 <img src={`https://github.com/${config.github}.png`} />
                 <div>

@@ -2,6 +2,7 @@
     "name": "Arthur Barros",
     "job": "Desenvolvedor Front-End",
     "github": "Talagruste",
+    "banner": "./src/images/banner.jpg",
     "playlists": {
         "jogos": [
             {
