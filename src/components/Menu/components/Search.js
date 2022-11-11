@@ -7,7 +7,7 @@ const StyledSearch = styled.div`
   border: 1px solid ${({ theme }) => theme.borderBase};
   max-width: 425px;
   width: 100%;
-  border-radius: 2px;
+  border-radius: 10px;
   overflow: hidden;
   
   input {
@@ -41,7 +41,7 @@ export default function Search({ valorDoFiltro, setValorDoFiltro }) {
 
     return (
         <StyledSearch>
-            <input type="text" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca} />
+            <input type="text" onChange={(e) => setValorDaBusca(e.target.value)} value={valorDaBusca} placeholder="Busca" />
             <button>
                 🔎
             </button>
